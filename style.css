@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a282b;
+    color: #e9e7e8;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #e9e7e8;
+}
+
+form button {
+    color: #51120e;
+    background-color: #e9e7e8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover {
+    background: #51120e;
+    color: #e9e7e8;
+}
+
